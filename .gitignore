@@ -1,0 +1,15 @@
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor
+.idea/
+.vscode/
+*.swp
+
+# Install backups created by scripts/install-skill.ps1
+*.backup-*
+
+# Local policy overrides
+*.local.yaml

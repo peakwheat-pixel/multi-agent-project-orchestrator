@@ -1,0 +1,17 @@
+orchestration:
+  primary: codex
+  fallback_order: [zcode, qoder, antigravity]
+  failover_policy: automatic
+  return_policy: primary_at_safe_boundary
+  recovery_mode: fast_then_rebaseline
+  continuation: automatic
+  context_mode: lean
+  max_recent_commits: 8
+  inline_full_prompt_only_for_manual_dispatch: true
+executor_policy:
+  heavy_task_executor: zcode
+  strategy: balanced
+role_policy:
+  owner_must_not_review_own_delivery: true
+state_policy:
+  evidence_first: true

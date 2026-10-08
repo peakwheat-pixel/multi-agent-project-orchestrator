@@ -1,0 +1,15 @@
+snapshot_version: 4
+main_head: UNKNOWN
+governance_fingerprint: UNKNOWN
+authority: UNKNOWN
+orchestrator: {active: codex, primary: codex, state: ACTIVE}
+policy: {heavy: zcode, strategy: balanced, recovery: fast_then_rebaseline}
+active: []
+ready: []
+review: []
+integration: []
+blocked: []
+critical_path: []
+next: {task: UNKNOWN, executor: NOT_ASSIGNED, gate: UNKNOWN}
+human_required: null
+# IDs/state only. Never duplicate Contract, Prompt, logs or evidence bodies.

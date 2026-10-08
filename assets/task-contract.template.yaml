@@ -1,0 +1,18 @@
+id: TASK-XXXX
+title: ""
+state: PLANNED
+owner: NOT_ASSIGNED
+reviewer: NOT_ASSIGNED
+integrator: NOT_ASSIGNED
+deps: []
+write_scope: []
+acceptance: []
+tests: []
+delivery_head: UNKNOWN
+reviewed_head: UNKNOWN
+review_decision: NOT_VERIFIED
+integration_target: UNKNOWN
+integration_status: NOT_RUN
+dispatch_state: NOT_ASSIGNED
+profile: standard # light|standard|heavy
+# Add only when needed: blocked_by, read_scope, forbidden_scope, evidence, checkpoint, handoff, risk

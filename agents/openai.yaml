@@ -1,0 +1,6 @@
+interface:
+  display_name: "Multi-Agent Project Orchestrator Lean"
+  short_description: "低上下文、差量式多 Agent 编排；Codex 主控，故障自动转移，heavy 默认优先 ZCode。"
+  default_prompt: "用最小上下文核验并推进项目；先轻量 Git，再按影响面读取。默认 BALANCED，heavy 优先 ZCode；主 Orchestrator 不可用时按 fallback FAST_RECOVERY。除非明确只读/只规划，否则持续到真实阻塞。"
+policy:
+  allow_implicit_invocation: false

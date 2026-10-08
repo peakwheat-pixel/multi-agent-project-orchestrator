@@ -1,0 +1,7 @@
+Multi-Agent Project Orchestrator Lean v2.2
+Docs: README.md, CHANGELOG.md, LICENSE (MIT)
+Core: SKILL.md
+References (lazy): planning, review-integration, recovery+failover, governance, dispatch
+Assets: minimal task/snapshot/checkpoint/status + compact role prompts + manual external dispatch
+Scripts: compact Git audit (ps1/sh), validator, safe installer
+Default: codex primary / zcode->qoder->antigravity fallback / balanced / zcode heavy executor / fast recovery
